@@ -57,6 +57,16 @@ cd frontend
 npm install
 ```
 
+**start the web app**
+```bash
+cd backend
+node server.js
+```
+```bash
+cd frontend
+npm start
+```
+
 ### Changing ports / addresses / DB URI
 
 **Backend**
