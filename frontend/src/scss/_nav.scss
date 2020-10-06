@@ -1,0 +1,56 @@
+
+nav {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.24);
+    
+    a.brand-logo {
+        float: left;
+        font-family: 'Poppins', sans-serif;
+        font-size: 33px;
+        font-weight: bold;
+        padding: 10px 0;
+        margin-left: 25px;
+
+        text-decoration: none;
+        color: black;
+    }
+
+    ul.right {
+        float: right;
+        margin: 0;
+        margin-right: 15px;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            padding: 25px 0px;
+
+            a {
+                color: black;
+                font-family: 'Questrial', sans-serif;
+                font-size: 20px;
+                text-decoration: none;
+                text-transform: uppercase;
+
+                padding: 25px 15px;
+            }
+
+            a:hover {
+                background-color:rgb(235, 235, 235);
+            }
+
+            a.active {
+                background-color: black;
+                color: white;
+            }
+        }
+
+    }
+}
+
+nav::after {
+    content: '';
+    display: table;
+    clear: both;
+}

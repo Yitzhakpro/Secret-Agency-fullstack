@@ -1,0 +1,89 @@
+div#owner-panel {
+    margin: auto;
+    margin-top: 85px;
+    text-align: center;
+
+    hr{
+        margin-top: 50px;
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 80px;
+        font-family: 'Questrial', sans-serif;
+
+        margin: 0;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 40px;
+        font-weight: lighter;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    div.links {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        div#users-list-link, div#manage-users-link {
+            border-radius: 25px;
+            padding: 40px 20px;
+            background-color: white;
+            box-shadow: 0 15px 20px 0 rgba(0,0,0,0.24);
+
+            button {
+                border: 2px solid royalblue;
+                border-radius: 10px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+                font-family: 'Poppins', sans-serif;
+                padding: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: royalblue;
+                    display: block;
+                    border-radius: 10px;
+                }
+            }
+
+            button:hover {
+                background-color: royalblue;
+                cursor: pointer;
+                box-shadow: 0 15px 20px 0 rgba(0,0,0,0.24);
+
+                a {
+                    color: white;
+                }
+            }
+        }
+
+        div#users-list-link {
+            display: flex;
+            flex-direction: column;
+            margin-right: 40px;
+
+            img {
+                height: 200px;
+                width: 200px;
+                margin-bottom: 30px;
+            }
+
+        }
+
+        div#manage-users-link {
+            display: flex;
+            flex-direction: column;
+            margin-left: 40px;
+
+            img {
+                height: 200px;
+                width: 245px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

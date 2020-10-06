@@ -1,0 +1,764 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Questrial&display=swap");
+nav {
+  background-color: white;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.24);
+}
+
+nav a.brand-logo {
+  float: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 33px;
+  font-weight: bold;
+  padding: 10px 0;
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul.right {
+  float: right;
+  margin: 0;
+  margin-right: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul.right li {
+  display: inline-block;
+  padding: 25px 0px;
+}
+
+nav ul.right li a {
+  color: black;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 25px 15px;
+}
+
+nav ul.right li a:hover {
+  background-color: #ebebeb;
+}
+
+nav ul.right li a.active {
+  background-color: black;
+  color: white;
+}
+
+nav::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+div#home-page {
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+}
+
+div#home-page div#homepage-opening {
+  margin-bottom: 150px;
+}
+
+div#home-page div#homepage-opening h1 {
+  color: #222222;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+div#home-page div#homepage-opening h2 {
+  color: #222222;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+div#home-page div#homepage-info h1 {
+  color: #222222;
+  font-size: 40px;
+}
+
+div#home-page div#homepage-info p {
+  color: #333333;
+  font-size: 25px;
+}
+
+div#home-page footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+div#home-page footer p {
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+}
+
+div.login-signup-form {
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 6px 8px 5px rgba(0, 0, 0, 0.35);
+}
+
+div.login-signup-form form h1 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+div.login-signup-form form p {
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 10%;
+  font-size: 20px;
+  font-family: 'Questrial', sans-serif;
+}
+
+div.login-signup-form form input {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 80%;
+  height: 30px;
+  margin-bottom: 30px;
+  font-family: 'Questrial', sans-serif;
+}
+
+div.login-signup-form form input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 4px solid royalblue;
+}
+
+div.login-signup-form form .error {
+  font-family: 'Questrial', sans-serif;
+  color: red;
+}
+
+div.login-signup-form form button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 2px solid royalblue;
+  font-family: 'Poppins', sans-serif;
+  color: royalblue;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+div.login-signup-form form button:hover {
+  background-color: #385ece;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.24);
+}
+
+div.login-signup-form.signup {
+  margin-top: 60px;
+  height: 630px;
+}
+
+div.addWanted-container {
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: white;
+  width: 500px;
+  height: 820px;
+  box-shadow: 0px 6px 8px 5px rgba(0, 0, 0, 0.35);
+}
+
+div.addWanted-container form h1 {
+  padding-top: 50px;
+  margin: 0;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+div.addWanted-container form h2 {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: darkred;
+}
+
+div.addWanted-container form p {
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 10%;
+  font-size: 20px;
+  font-family: 'Questrial', sans-serif;
+}
+
+div.addWanted-container form input {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 80%;
+  height: 30px;
+  margin-bottom: 30px;
+  font-family: 'Questrial', sans-serif;
+}
+
+div.addWanted-container form input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 4px solid darkred;
+}
+
+div.addWanted-container form textarea {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 80%;
+  height: 100px;
+  margin-bottom: 30px;
+  resize: none;
+  font-family: 'Questrial', sans-serif;
+}
+
+div.addWanted-container form textarea:focus {
+  outline: none;
+  border: none;
+  border-bottom: 4px solid darkred;
+}
+
+div.addWanted-container form .error {
+  font-family: 'Questrial', sans-serif;
+  color: red;
+}
+
+div.addWanted-container form button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 2px solid darkred;
+  font-family: 'Poppins', sans-serif;
+  color: darkred;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+div.addWanted-container form button:hover {
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.24);
+}
+
+div#wanted-list {
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#wanted-list div.wanted-card {
+  background-image: url("/img/blood-stain.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: right bottom;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 50%;
+  box-shadow: 0px 6px 8px 5px rgba(0, 0, 0, 0.35);
+}
+
+div#wanted-list div.wanted-card div.wanted-card-content {
+  margin-left: 10px;
+}
+
+div#wanted-list div.wanted-card div.wanted-card-content * {
+  margin: 5px 0px;
+}
+
+div#wanted-list div.wanted-card div.wanted-card-content span {
+  color: darkred;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+div#wanted-list div.wanted-card div.wanted-card-content p {
+  font-size: 25px;
+  font-family: 'Questrial', sans-serif;
+  word-wrap: break-word;
+}
+
+div#wanted-list div.wanted-card button {
+  margin: 5px 15px;
+  float: right;
+  border: 2px solid darkred;
+  font-family: 'Poppins', sans-serif;
+  color: darkred;
+  border-radius: 10px;
+}
+
+div#wanted-list div.wanted-card button:hover {
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.24);
+}
+
+.loading-list {
+  margin-top: 50px;
+  font-size: 84px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+.loading-list span {
+  display: inline-block;
+  margin: 0 -.05em;
+  margin: 0 -.075em;
+  animation: loading03 .7s infinite alternate;
+}
+
+.loading-list span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.loading-list span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.loading-list span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.loading-list span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.loading-list span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+.loading-list span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+@keyframes loading03 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+div.loadingList-error {
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+div.loadingList-error * {
+  margin: 0;
+  color: darkred;
+}
+
+div.loadingList-error h1 {
+  font-size: 70px;
+  font-family: 'Poppins', sans-serif;
+}
+
+div.loadingList-error h2 {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+div#owner-panel {
+  margin: auto;
+  margin-top: 85px;
+  text-align: center;
+}
+
+div#owner-panel hr {
+  margin-top: 50px;
+  width: 70%;
+}
+
+div#owner-panel h1 {
+  font-size: 80px;
+  font-family: 'Questrial', sans-serif;
+  margin: 0;
+}
+
+div#owner-panel h2 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+}
+
+div#owner-panel div.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+div#owner-panel div.links div#users-list-link, div#owner-panel div.links div#manage-users-link {
+  border-radius: 25px;
+  padding: 40px 20px;
+  background-color: white;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.24);
+}
+
+div#owner-panel div.links div#users-list-link button, div#owner-panel div.links div#manage-users-link button {
+  border: 2px solid royalblue;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+}
+
+div#owner-panel div.links div#users-list-link button a, div#owner-panel div.links div#manage-users-link button a {
+  text-decoration: none;
+  color: royalblue;
+  display: block;
+  border-radius: 10px;
+}
+
+div#owner-panel div.links div#users-list-link button:hover, div#owner-panel div.links div#manage-users-link button:hover {
+  background-color: royalblue;
+  cursor: pointer;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.24);
+}
+
+div#owner-panel div.links div#users-list-link button:hover a, div#owner-panel div.links div#manage-users-link button:hover a {
+  color: white;
+}
+
+div#owner-panel div.links div#users-list-link {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+div#owner-panel div.links div#users-list-link img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+div#owner-panel div.links div#manage-users-link {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+div#owner-panel div.links div#manage-users-link img {
+  height: 200px;
+  width: 245px;
+  margin-bottom: 30px;
+}
+
+div#users-list {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#users-list h1 {
+  color: royalblue;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+div#users-list hr {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+div#users-list div.user-card {
+  padding: 10px 0px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 40%;
+  box-shadow: 0px 6px 8px 5px rgba(0, 0, 0, 0.35);
+}
+
+div#users-list div.user-card div.user-card-content span {
+  color: royalblue;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: none;
+}
+
+div#users-list div.user-card div.user-card-content p {
+  font-size: 25px;
+  font-family: 'Questrial', sans-serif;
+  word-wrap: break-word;
+}
+
+div#users-list div.user-card div.user-card-content p button {
+  margin-left: 10px;
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+div#users-list div.user-card div.user-card-content p button:hover {
+  cursor: pointer;
+}
+
+div#users-list div.user-card div.user-card-content p.rank {
+  text-transform: uppercase;
+}
+
+div#users-list div.user-card div.user-card-content p.owner {
+  color: darkred;
+}
+
+div#users-list div.user-card div.user-card-content p.admin {
+  color: red;
+}
+
+div#users-list div.user-card div.user-card-content p.user {
+  color: #333333;
+}
+
+.loading-list {
+  margin-top: 50px;
+  font-size: 84px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+.loading-list span {
+  display: inline-block;
+  margin: 0 -.05em;
+  margin: 0 -.075em;
+  animation: loading03 .7s infinite alternate;
+}
+
+.loading-list span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.loading-list span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.loading-list span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.loading-list span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.loading-list span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+.loading-list span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+@keyframes loading03 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+div.loadingList-error {
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+div.loadingList-error * {
+  margin: 0;
+  color: darkred;
+}
+
+div.loadingList-error h1 {
+  font-size: 70px;
+  font-family: 'Poppins', sans-serif;
+}
+
+div.loadingList-error h2 {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+div#manage-users {
+  margin: auto;
+  text-align: center;
+}
+
+div#manage-users h1 {
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+  color: royalblue;
+}
+
+div#manage-users hr {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+div#manage-users div#user-find-section label {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  color: royalblue;
+}
+
+div#manage-users div#user-find-section input {
+  margin-left: 5px;
+  margin-right: 8px;
+  height: 20px;
+  width: 260px;
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+  font-size: 20px;
+  font-family: 'Questrial', sans-serif;
+}
+
+div#manage-users div#user-find-section input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 4px solid black;
+}
+
+div#manage-users div#user-find-section button {
+  border: 2px solid royalblue;
+  font-family: 'Poppins', sans-serif;
+  color: royalblue;
+  border-radius: 10px;
+  padding: 3px 10px;
+}
+
+div#manage-users div#user-find-section button:hover {
+  border-radius: 10px;
+  background-color: #385ece;
+  color: white;
+  cursor: pointer;
+}
+
+div#manage-users div#user-find-section div.user-info {
+  margin-top: 20px;
+}
+
+div#manage-users div#user-find-section div.user-info span {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: royalblue;
+  text-transform: none;
+}
+
+div#manage-users div#user-find-section div.user-info p {
+  font-size: 15px;
+  font-family: 'Questrial', sans-serif;
+}
+
+div#manage-users div#user-find-section div.user-info p.rank {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+div#manage-users div#user-find-section div.user-info p.owner {
+  color: darkred;
+}
+
+div#manage-users div#user-find-section div.user-info p.admin {
+  color: red;
+}
+
+div#manage-users div#user-find-section div.user-info p.user {
+  color: #333333;
+}
+
+div#manage-users div#user-find-section p#error-found {
+  color: darkred;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+div#manage-users div.manageUsersOptions h1 {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  color: royalblue;
+}
+
+div#manage-users div.manageUsersOptions form.changeRank-form {
+  margin-bottom: 30px;
+}
+
+div#manage-users div.manageUsersOptions form.changeRank-form label {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: royalblue;
+}
+
+div#manage-users div.manageUsersOptions form.changeRank-form select {
+  margin-left: 5px;
+  height: 25px;
+  width: 65px;
+  font-family: 'Questrial', sans-serif;
+}
+
+div#manage-users div.manageUsersOptions form.changeRank-form button {
+  margin-top: 10px;
+  border: 2px solid royalblue;
+  font-family: 'Poppins', sans-serif;
+  color: royalblue;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+div#manage-users div.manageUsersOptions form.changeRank-form button:hover {
+  border-radius: 10px;
+  background-color: #385ece;
+  color: white;
+  cursor: pointer;
+}
+
+div#manage-users div.manageUsersOptions div.deleteUser-section button {
+  border: 2px solid royalblue;
+  font-family: 'Poppins', sans-serif;
+  color: royalblue;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+div#manage-users div.manageUsersOptions div.deleteUser-section button:hover {
+  border-radius: 10px;
+  background-color: #385ece;
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+/*# sourceMappingURL=styles.css.map */

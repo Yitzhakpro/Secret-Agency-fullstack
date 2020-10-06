@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Questrial&display=swap');
+@import '_nav';
+@import '_homePage';
+@import '_login_singup';
+@import '_addWanted';
+@import '_wantedList';
+@import '_ownerPanel';
+@import '_usersList';
+@import '_manageUsers';
+
+body {
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+}

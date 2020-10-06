@@ -1,0 +1,163 @@
+div#manage-users {
+    margin: auto;
+    text-align: center;
+
+    h1 {
+        font-size: 45px;
+        font-family: 'Poppins', sans-serif;
+        color: royalblue;
+    }
+
+    hr {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    div#user-find-section {
+
+        label {
+            font-size: 25px;
+            font-family: 'Poppins', sans-serif;
+            color: royalblue;
+        }
+
+        input {
+            margin-left: 5px;
+            margin-right: 8px;
+            height: 20px;
+            width: 260px;
+
+            border: none;
+            border-bottom: 2px solid black;
+            background: none;
+
+            font-size: 20px;
+            font-family: 'Questrial', sans-serif;
+        }
+
+        input:focus {
+            outline: none;
+            border: none;
+            border-bottom: 4px solid black;
+        }
+
+        button {
+            border: 2px solid royalblue;
+
+            font-family: 'Poppins', sans-serif;
+            color: royalblue;
+            border-radius: 10px;
+            padding: 3px 10px;
+        }
+
+        button:hover {
+            border-radius: 10px;
+            background-color: rgb(56, 94, 206);
+            color: white;
+            cursor: pointer;
+        }
+
+        div.user-info {
+            margin-top: 20px;
+
+            span {
+                font-size: 15px;
+                font-family: 'Poppins', sans-serif;
+                color: royalblue;
+                text-transform: none;
+            }
+
+            p {
+                font-size: 15px;
+                font-family: 'Questrial', sans-serif;
+            }
+
+            p.rank {
+                text-transform: uppercase;
+                margin-bottom: 30px;
+            }
+
+            p.owner {
+                color: darkred;
+            }
+            
+            p.admin {
+                color: red;
+            }
+
+            p.user { 
+                color: #333333;
+            }
+            
+        }
+
+        p#error-found {
+            color: darkred;
+            font-size: 30px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+    }
+
+    div.manageUsersOptions {
+
+        h1 {
+            font-size: 25px;
+            font-family: 'Poppins', sans-serif;
+            color: royalblue;
+        }
+
+        form.changeRank-form {
+            margin-bottom: 30px;
+
+            label {
+                font-size: 20px;
+                font-family: 'Poppins', sans-serif;
+                color: royalblue;
+            }
+
+            select {
+                margin-left: 5px;
+                height: 25px;
+                width: 65px;
+
+                font-family: 'Questrial', sans-serif;
+            }
+
+            button {
+                margin-top: 10px;
+                border: 2px solid royalblue;
+    
+                font-family: 'Poppins', sans-serif;
+                color: royalblue;
+                border-radius: 10px;
+                padding: 5px 10px;
+            }
+    
+            button:hover {
+                border-radius: 10px;
+                background-color: rgb(56, 94, 206);
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+        div.deleteUser-section {
+            button {
+                border: 2px solid royalblue;
+    
+                font-family: 'Poppins', sans-serif;
+                color: royalblue;
+                border-radius: 10px;
+                padding: 5px 10px;
+            }
+    
+            button:hover {
+                border-radius: 10px;
+                background-color: rgb(56, 94, 206);
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
