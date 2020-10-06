@@ -18,7 +18,7 @@ You can login / signup, There's 3 kinds of permissions to users:
 - **Admin:** Can add wanteds and view the wanted list.  
    The admin have a button on the nav bar that will take him the to adding wanted form,
    from there he can fill the form and add the wanted (view screenshots).
-- **User:** Only can view the wanted list.
+- **User:** Only can view the wanted list (users dont have the "delete wanted button" in this list as shown in the screenshot below).
 
 **You need to set the owner rank manually in the DB, other ranks can be set from the owner panel.**
 
