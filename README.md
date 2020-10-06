@@ -23,7 +23,23 @@ You can login / signup, There's 3 kinds of permissions to users:
 **You need to set the owner rank manually in the DB, other ranks can be set from the owner panel.**
 
 ---
+# Screenshots
+**Wanted List Example**
+![wanted list example](https://github.com/Yitzhakpro/Secret-Agency-fullstack/blob/main/Screenshots/wantedlist.png "wanted list example")
 
+**Add Wanted Form**
+![add wanted form](https://github.com/Yitzhakpro/Secret-Agency-fullstack/blob/main/Screenshots/addwanted.png "add wanted form")
+
+**Owner Panel**
+![owner panel](https://github.com/Yitzhakpro/Secret-Agency-fullstack/blob/main/Screenshots/ownerpanel.png "owner panel")
+
+**Users List**
+![users list](https://github.com/Yitzhakpro/Secret-Agency-fullstack/blob/main/Screenshots/userslist.png "users list")
+
+**Manage User Example**
+![manage user example](https://github.com/Yitzhakpro/Secret-Agency-fullstack/blob/main/Screenshots/manageusertest.png "manage user example")
+
+---
 # Installation & Setting Up
 
 clone the directory
@@ -76,3 +92,10 @@ FILE: /src/components/OwnerAccess/ManageUsers.js
 LINE 4: const API_ADDRESS = 'http://localhost:4000'; // change this if you want
 ```
 API Address refers to the server's address.
+
+---
+# Built with:
+- Node.js for the backend (With the module **Express**).
+- React for the frontend (modules used: redux, thunk, etc...).
+- MongoDB for the database (mongoose for the backend to deal with the db).
+- fetchAPI to reach the server's endpoint.
